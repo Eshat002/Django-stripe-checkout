@@ -25,9 +25,9 @@ def checkout(request):
         ],
         mode='payment',
        
-        success_url="http://127.0.0.1:8000/order/success?session_id={CHECKOUT_SESSION_ID}",
+        success_url="/order/success?session_id={CHECKOUT_SESSION_ID}",
      
-        cancel_url='http://127.0.0.1:8000/',
+        cancel_url='/',
          
         
     )
