@@ -25,7 +25,7 @@ def checkout(request):
         ],
         mode='payment',
        
-        success_url="https://django-stripe-checkout.onrender.com/order/success?session_id={CHECKOUT_SESSION_ID}",
+        success_url="https://django-stripe-checkout.onrender.com/order/success/?session_id={CHECKOUT_SESSION_ID}",
      
         cancel_url='https://django-stripe-checkout.onrender.com/',
          
