@@ -27,7 +27,7 @@ def checkout(request):
        
         success_url="https://django-stripe-checkout.onrender.com/order/success?session_id={CHECKOUT_SESSION_ID}",
      
-        cancel_url='http://127.0.0.1:8000/',
+        cancel_url='https://django-stripe-checkout.onrender.com/',
          
         
     )
